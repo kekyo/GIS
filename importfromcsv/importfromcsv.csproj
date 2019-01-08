@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFrameworks>net462</TargetFrameworks>
+        <OutputType>Exe</OutputType>
+        <RootNamespace>importfromcsv</RootNamespace>
+        <AssemblyName>importfromcsv</AssemblyName>
+        <DebugType>full</DebugType>
+        <DebugSymbols>true</DebugSymbols>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <LangVersion>7.3</LangVersion>
+    </PropertyGroup>
+    <ItemGroup>
+      <None Remove="scripts\activity_original.sql" />
+      <None Remove="scripts\activity_point.sql" />
+      <None Remove="scripts\analyze_activity.sql" />
+      <None Remove="scripts\analyze_station.sql" />
+      <None Remove="scripts\station_original.sql" />
+      <None Remove="scripts\station_point.sql" />
+    </ItemGroup>
+    <ItemGroup>
+      <EmbeddedResource Include="scripts\activity_original.sql" />
+      <EmbeddedResource Include="scripts\analyze_station.sql" />
+      <EmbeddedResource Include="scripts\analyze_activity.sql" />
+      <EmbeddedResource Include="scripts\station_point.sql" />
+      <EmbeddedResource Include="scripts\activity_point.sql" />
+      <EmbeddedResource Include="scripts\station_original.sql" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="System.ValueTuple" Version="4.5.0" />
+        <PackageReference Include="Microsoft.SqlServer.Types" Version="10.50.1600.1" />
+    </ItemGroup>
+</Project>

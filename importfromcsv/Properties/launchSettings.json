@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "importfromcsv": {
+      "commandName": "Project",
+      "commandLineArgs": "$(SolutionDir)data\\activity_867455934.kml $(SolutionDir)data\\station20151215free.csv $(SolutionDir)database\\activity.mdf  $(SolutionDir)data\\analyzed_activity.csv $(SolutionDir)data\\analyzed_station.csv"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{FB68450D-B2E2-42B1-82D6-160458EAD245}"
+	ProjectSection(SolutionItems) = preProject
+		data\activity_867455934.kml = data\activity_867455934.kml
+		data\station20151215free.csv = data\station20151215free.csv
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "importfromcsv", "importfromcsv\importfromcsv.csproj", "{30581FCF-6328-47B2-B2EB-8CA3988CDC9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30581FCF-6328-47B2-B2EB-8CA3988CDC9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30581FCF-6328-47B2-B2EB-8CA3988CDC9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30581FCF-6328-47B2-B2EB-8CA3988CDC9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30581FCF-6328-47B2-B2EB-8CA3988CDC9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E7D60FA-3ED8-46E5-8F72-32B54A2D99FE}
+	EndGlobalSection
+EndGlobal
